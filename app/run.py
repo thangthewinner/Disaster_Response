@@ -28,12 +28,10 @@ def tokenize(text):
     return clean_tokens
 
 # load data
-params = urllib.parse.quote_plus('DRIVER={ODBC Driver 17 for SQL Server};SERVER=adyserver2.database.windows.net;DATABASE=ADY201m_Lab04;\
-                                    UID=admin99;PWD=Matkhau@123')
+df1 = pd.read_csv('../data/disaster_train.csv')
+df2 = pd.read_csv('../data/disaster_test.csv')
 
-engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % params)
-
-df = pd.read_sql_table('tblDisaster', engine)
+df = pd.concat([df1, df2], axis=0, ignore_index=True)
 
 # load model
 model = joblib.load("../models/classifier.pkl")
