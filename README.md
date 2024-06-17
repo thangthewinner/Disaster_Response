@@ -11,6 +11,8 @@ The project consists of the following components:
 - Processes and cleans the data.
 - Use **TextAttck** library to augment the data.
 - Save it into 2 file `disaster_train.csv` and `disaster_test.csv`.
+  - The original data is disaster_test.csv with a shape of (26216, 39).
+  - The augmented data is disaster_train.csv with a shape of (129665, 39).
 
 ### 2.2. Machine Learning Pipeline
 - Load the data from `disaster_train.csv` and `disaster_test.csv`.
