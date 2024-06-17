@@ -18,10 +18,10 @@ The project consists of the following components:
 - The model is used to categorise messages into different disaster-related categories.
 - Machine Learning pipeline code can be found in **_models/building_model.ipynb_**
 - Pipeline: $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/ml_pipeline.png?raw=true)
+![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/ml_pipeline.png?raw=true) $\newline$
 - Model evaluation: $\newline$
 ![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/classification_report.png?raw=true) $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/accuracy.png?raw=true)
+![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/accuracy.png?raw=true) $\newline$
 
 
 ### 2.3. Web Application
