@@ -7,7 +7,7 @@ The Disaster Response Pipeline project is a web application designed to analyze 
 The project consists of the following components:
 
 ### 2.1. Data Augmentation
-- Loads the data from `messages` and `categories` datasets.
+- Loads the data from `disaster_messages.csv` and `disaster_categories.csv` datasets.
 - Processes and cleans the data.
 - Use **TextAttck** library to augment the data.
 - Save it into 2 file `disaster_train.csv` and `disaster_test.csv`.
@@ -18,10 +18,14 @@ The project consists of the following components:
 - The model is used to categorise messages into different disaster-related categories.
 - Machine Learning pipeline code can be found in **_models/building_model.ipynb_**
 - Pipeline: $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/ml_pipeline.png?raw=true) $\newline$
+  
+![Pipeline](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/ml_pipeline.png?raw=true) $\newline$
+
 - Model evaluation: $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/classification_report.png?raw=true) $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/accuracy.png?raw=true) $\newline$
+  
+![Model Evaluation](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/classification_report.png?raw=true) $\newline$
+
+![Accuracy](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/accuracy.png?raw=true) $\newline$
 
 
 ### 2.3. Web Application
@@ -74,7 +78,7 @@ python run.py
 
 ## 4. Preview
 - Front page: $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/front_page.png?raw=true)
+![Front Page](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/front_page.png?raw=true)
 
 - Result page: $\newline$
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/result_page.png?raw=true)
+![Result Page](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/result_page.png?raw=true)
