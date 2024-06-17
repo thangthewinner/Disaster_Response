@@ -17,10 +17,10 @@ The project consists of the following components:
 - Saves the final model as a pickle file
 - The model is used to categorise messages into different disaster-related categories.
 - Machine Learning pipeline code can be found in **_models/building_model.ipynb_**
-- Pipeline:
+- Pipeline: $\newline$
 ![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/ml_pipeline.png?raw=true)
-- Model evaluation:
-![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/classification_report.png?raw=true)
+- Model evaluation: $\newline$
+![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/classification_report.png?raw=true) $\newline$
 ![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/accuracy.png?raw=true)
 
 
@@ -73,8 +73,8 @@ python run.py
 - Go to `http://127.0.0.1:3000/` to use the web application.
 
 ## 4. Preview
-- Front page:
+- Front page: $\newline$
 ![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/front_page.png?raw=true)
 
-- Result page:
+- Result page: $\newline$
 ![App header](https://github.com/thangthewinner/Disaster_Response_Upgrade/blob/main/screenshots/result_page.png?raw=true)
