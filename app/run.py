@@ -5,6 +5,9 @@ import urllib
 
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 
 from flask import Flask
 from flask import render_template, request, jsonify
