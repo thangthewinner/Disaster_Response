@@ -61,7 +61,7 @@ To clone the git repository:
         git clone https://github.com/thangthewinner/Disaster_Response_Upgrade.git
 
 ### 3.3. Running the project
-1. See the way to augment dat
+1. See the way to augment data
 
 - Open file `Data_Augmentation.ipynb` follow the path **\Disaster_Response_Upgrade\data\data_augmentation\Data_Augmentation.ipynb**
 
