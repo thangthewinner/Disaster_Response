@@ -44,7 +44,7 @@ The project consists of the following components:
 - **Machine Learning Libraries**:
     - Pandas
     - SciPy
-    - Scikit-Learn
+    - Scikit-Learn == 1.4.2 (important)
 - **Natural Language Processing Libraries**:
     - NLTK (Natural Language Toolkit)
 - **Model Loading and Saving Libraries**:
